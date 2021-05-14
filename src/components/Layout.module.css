@@ -1,20 +1,28 @@
 #header {
-  font-family: 'Oswald', sans-serif;
-  background: url('/coffee.jpg');
+  font-family: "Oswald", sans-serif;
+  background: url("/coffee.jpg");
   background-size: cover;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #header #inner {
   background: rgba(119, 79, 56, 0.85);
   padding: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 #header h1 {
   margin: 0;
+  flex-grow: 1;
 }
 
 #header h1 a {
-  color: #FFFFFF;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header a {
+  color: #ffffff;
   text-decoration: none;
 }
